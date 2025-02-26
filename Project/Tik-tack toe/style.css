@@ -1,0 +1,23 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: darkgray;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#score{
+    display: flex;  
+}
+.score-area{
+    background-color: aliceblue;
+    padding: 20px 130px;
+    margin: 10px;
+    border-radius: 3px;
+}
+canvas{
+    background: lightgray;
+}
